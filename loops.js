@@ -30,8 +30,8 @@ for (var i = 0; i < 100; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
         console.log('HelloWorld');
     } else if (i % 3 == 0) {
-        console.log('Fizz');
+        console.log('Hello');
     } else if (i % 5 == 0) {
-        console.log("Buzz");
+        console.log("World");
     } else console.log(i);
 }
